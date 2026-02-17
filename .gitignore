@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+._*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# User-specific (your filled data)
+# Add any files you don't want to share publicly
