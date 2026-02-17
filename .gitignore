@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -5,25 +6,15 @@ __pycache__/
 *.so
 .Python
 build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
 # Virtual environments
 venv/
 ENV/
 env/
+
+# OS
+.DS_Store
+Thumbs.db
+._*
 
 # IDEs
 .vscode/
@@ -31,6 +22,32 @@ env/
 *.swp
 *.swo
 
+# User data
+user_data/
+*.local
+.env
+
+# User-specific (your filled data)
+# Add any files you don't want to share publicly
+
+# Virtual environments
+venv/
+ENV/
+env/
+=======
+# OS
+.DS_Store
+Thumbs.db
+._*
+>>>>>>> b216cf25e4b853377dd916bc23d084511fa856c4
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+<<<<<<< HEAD
 # OS
 .DS_Store
 Thumbs.db
@@ -39,3 +56,7 @@ Thumbs.db
 user_data/
 *.local
 .env
+=======
+# User-specific (your filled data)
+# Add any files you don't want to share publicly
+>>>>>>> b216cf25e4b853377dd916bc23d084511fa856c4
