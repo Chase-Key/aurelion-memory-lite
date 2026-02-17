@@ -1,0 +1,247 @@
+{
+  "knowledge_graph": {
+    "description": "Example knowledge graph structure for 5-floor library organization. Customize nodes and connections for your own knowledge base.",
+    "graph_version": "1.0",
+    "architecture": "5-floor hierarchical knowledge organization",
+    
+    "core_nodes": {
+      "knowledge_system": {
+        "label": "Personal Knowledge System",
+        "properties": ["systematic", "scalable", "searchable", "organized"],
+        "connects_to": ["architecture", "career_planning", "skill_development", "frameworks"],
+        "floor": 1,
+        "file_locations": ["00_Hub_Index.md", "README.md"]
+      },
+
+      "architecture": {
+        "label": "5-Floor Architecture",
+        "properties": ["hierarchical", "organized", "navigable", "flexible"],
+        "connects_to": ["floor_1_foundation", "floor_2_frameworks", "floor_3_relationships", "floor_4_implementation", "floor_5_vision"],
+        "floor": 1,
+        "file_locations": ["ARCHITECTURE.md", "FLOOR_MAPPING.md"]
+      },
+
+      "floor_1_foundation": {
+        "label": "Floor 1: Foundation & Navigation",
+        "properties": ["operational", "daily work", "career tracking", "skills"],
+        "connects_to": ["career_planning", "skills", "daily_work"],
+        "floor": 1,
+        "file_locations": ["Floor 1 documents"]
+      },
+
+      "floor_2_frameworks": {
+        "label": "Floor 2: Systems & Frameworks",
+        "properties": ["processes", "templates", "standards", "methodologies"],
+        "connects_to": ["glossary", "procedures", "communication", "development"],
+        "floor": 2,
+        "file_locations": ["Floor 2 documents"]
+      },
+
+      "floor_3_relationships": {
+        "label": "Floor 3: Networks & Relationships",
+        "properties": ["stakeholders", "networking", "strategy", "positioning"],
+        "connects_to": ["network_map", "vision", "strategy"],
+        "floor": 3,
+        "file_locations": ["Floor 3 documents"]
+      },
+
+      "floor_4_implementation": {
+        "label": "Floor 4: Action & Implementation",
+        "properties": ["execution", "tactics", "projects", "workflows"],
+        "connects_to": ["project_templates", "decision_frameworks", "training"],
+        "floor": 4,
+        "file_locations": ["Floor 4 documents"]
+      },
+
+      "floor_5_vision": {
+        "label": "Floor 5: Vision & Strategy",
+        "properties": ["long-term", "philosophy", "goals", "direction"],
+        "connects_to": ["vision", "strategy", "philosophy"],
+        "floor": 5,
+        "file_locations": ["Floor 5 documents"]
+      },
+
+      "career_planning": {
+        "label": "Career Development",
+        "properties": ["goals", "advancement", "skills", "tracking"],
+        "connects_to": ["floor_1_foundation", "skills", "vision"],
+        "floor": 1,
+        "file_locations": ["01_Career_Master.md"]
+      },
+
+      "skills": {
+        "label": "Skills & Competencies",
+        "properties": ["technical", "certifications", "proficiency", "development"],
+        "connects_to": ["career_planning", "training", "development"],
+        "floor": 1,
+        "file_locations": ["02_Skills_Inventory.md"]
+      },
+
+      "daily_work": {
+        "label": "Daily Operations",
+        "properties": ["tasks", "workflows", "responsibilities", "routines"],
+        "connects_to": ["floor_1_foundation", "procedures"],
+        "floor": 1,
+        "file_locations": ["03_Daily_Operations.md"]
+      },
+
+      "project_templates": {
+        "label": "Project Templates",
+        "properties": ["methodology", "frameworks", "reusable", "documented"],
+        "connects_to": ["floor_4_implementation", "decision_frameworks"],
+        "floor": 4,
+        "file_locations": ["06_Project_Template.md"]
+      },
+
+      "vision": {
+        "label": "Long-term Vision",
+        "properties": ["goals", "strategy", "roadmap", "direction"],
+        "connects_to": ["career_planning", "strategy", "floor_5_vision"],
+        "floor": 5,
+        "file_locations": ["35_Strategic_Plan.md"]
+      },
+
+      "glossary": {
+        "label": "Terminology & Definitions",
+        "properties": ["terms", "acronyms", "definitions", "context"],
+        "connects_to": ["floor_2_frameworks", "communication"],
+        "floor": 2,
+        "file_locations": ["10_Glossary.md"]
+      },
+
+      "communication": {
+        "label": "Communication Standards",
+        "properties": ["templates", "formats", "guidelines", "style"],
+        "connects_to": ["floor_2_frameworks", "glossary"],
+        "floor": 2,
+        "file_locations": ["11_Communication_Standards.md"]
+      },
+
+      "procedures": {
+        "label": "Standard Procedures",
+        "properties": ["documented", "repeatable", "workflows", "best practices"],
+        "connects_to": ["floor_2_frameworks", "daily_work"],
+        "floor": 2,
+        "file_locations": ["13_SOP_Library.md"]
+      },
+
+      "network_map": {
+        "label": "Professional Network",
+        "properties": ["relationships", "stakeholders", "connections", "influence"],
+        "connects_to": ["floor_3_relationships", "career_planning"],
+        "floor": 3,
+        "file_locations": ["18_Network_Map.md"]
+      },
+
+      "decision_frameworks": {
+        "label": "Decision Frameworks",
+        "properties": ["criteria", "processes", "evaluation", "methodology"],
+        "connects_to": ["floor_4_implementation", "project_templates"],
+        "floor": 4,
+        "file_locations": ["26_Decision_Tree.md"]
+      },
+
+      "training": {
+        "label": "Training & Development",
+        "properties": ["learning", "teaching", "knowledge transfer", "skills"],
+        "connects_to": ["skills", "procedures", "floor_4_implementation"],
+        "floor": 4,
+        "file_locations": ["27_Training_Curriculum.md"]
+      },
+
+      "strategy": {
+        "label": "Strategic Planning",
+        "properties": ["long-term", "positioning", "goals", "execution"],
+        "connects_to": ["vision", "network_map", "floor_5_vision"],
+        "floor": 5,
+        "file_locations": ["32_Strategic_Framework.md"]
+      },
+
+      "philosophy": {
+        "label": "Personal Philosophy",
+        "properties": ["values", "principles", "thinking", "approach"],
+        "connects_to": ["vision", "strategy", "floor_5_vision"],
+        "floor": 5,
+        "file_locations": ["32_Personality_Framework.md"]
+      },
+
+      "development": {
+        "label": "Skill Development",
+        "properties": ["learning", "growth", "acquisition", "measurement"],
+        "connects_to": ["skills", "training", "floor_2_frameworks"],
+        "floor": 2,
+        "file_locations": ["12_Development_Tracking.md"]
+      }
+    },
+
+    "connection_patterns": {
+      "floor_cascades": {
+        "description": "How floors connect vertically",
+        "pattern": "Foundation → Frameworks → Relationships → Implementation → Vision"
+      },
+      
+      "hub_satellites": {
+        "description": "Files that connect to core hub documents",
+        "hubs": ["knowledge_system", "central_index", "philosophy"],
+        "satellites": "Each floor has documents linked to core concepts"
+      },
+
+      "knowledge_amplification": {
+        "description": "How knowledge compounds through the system",
+        "pattern": "Skills → Frameworks → Strategy → Implementation → Vision"
+      }
+    },
+
+    "navigation_guide": {
+      "search_by_question": [
+        "Where should my career go? → Floor 5 (Vision) + Floor 3 (Network Map)",
+        "How do I systematize my knowledge? → Floor 2 (Frameworks) + Floor 4 (Templates)",
+        "What skills do I need? → Floor 1 (Skills) + Floor 2 (Development)",
+        "How do I work with AI? → Floor 3 (Strategy) + Floor 4 (Implementation)",
+        "What's my methodology? → Floor 4 (Templates) + Floor 2 (Procedures)",
+        "Who are key relationships? → Floor 3 (Network) + Floor 5 (Strategy)"
+      ],
+
+      "search_by_floor": [
+        "Floor 1: Daily operations, career tracking, current skills",
+        "Floor 2: Frameworks, procedures, standards, terminology",
+        "Floor 3: Relationships, networks, strategy, positioning",
+        "Floor 4: Projects, execution, tactics, implementation",
+        "Floor 5: Vision, philosophy, long-term goals, direction"
+      ],
+
+      "search_by_connection": [
+        "Start with any node → Follow 'connects_to' links",
+        "Use floor numbers to understand hierarchy",
+        "Check 'file_locations' for specific documents"
+      ]
+    },
+
+    "organizational_patterns": {
+      "central_index": {
+        "purpose": "Core navigation hub",
+        "files": ["00_Hub_Index.md", "README.md"],
+        "role": "Starting point for all navigation"
+      },
+
+      "confidential_documents": {
+        "purpose": "Sensitive information",
+        "files": ["security_guidelines.md", "confidential_info.md"],
+        "role": "Classified or restricted knowledge"
+      },
+
+      "session_logs": {
+        "purpose": "Work history and progress",
+        "files": ["session_notes_YYYY-MM-DD.md", "monthly_progress.md"],
+        "role": "Track progress over time"
+      }
+    },
+
+    "metadata": {
+      "schema_version": "1.0",
+      "last_updated": "2026",
+      "architecture": "5-floor hierarchical knowledge organization",
+      "purpose": "Template for personal knowledge management system"
+    }
+  }
+}
