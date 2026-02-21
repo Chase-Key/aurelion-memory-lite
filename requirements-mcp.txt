@@ -1,0 +1,11 @@
+# MCP Server Requirements
+# Install: pip install -r requirements-mcp.txt
+
+# Core MCP SDK (Anthropic)
+mcp>=1.0.0
+
+# Optional: FastMCP for simpler server authoring (alternative to raw MCP SDK)
+# fastmcp>=0.4.0
+
+# AURELION Memory Lite (install in editable mode from parent directory)
+# pip install -e ..
